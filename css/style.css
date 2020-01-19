@@ -1,5 +1,88 @@
-p {
-    background-color: green;
-    font-size: 20px;
-    color: red;
+body{
+    font-family: 'Muli', sans-serif;
+}
+.programBoxes__text{
+    font-weight: 400;
+color: #333;
+box-sizing: border-box;
+vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-family: inherit;
+font-size: 100%;
+outline: 0;
+margin-top: 22px;
+}
+ul {
+    font-weight: 400;
+    color: #333;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    outline: 0;
+    list-style-type: none;
+    margin-top: 17px;
+    }
+    li {
+        font-weight: 400;
+    color: #333;
+    list-style-type: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    outline: 0;
+font-size: 1.6rem;
+line-height: 1.8125;
+position: relative;
+padding-left: 30px;
+margin-top: 0;
+}
+
+h5{
+    box-sizing: border-box;
+vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-family: inherit;
+outline: 0;
+font-weight: 400;
+font-size: 2.39rem;
+line-height: 1.5;
+color: #00b6dc;
+margin-top: 0;
+}
+
+p{
+    font-weight: 400;
+color: #333;
+box-sizing: border-box;
+vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-family: inherit;
+outline: 0;
+font-size: 1.6rem;
+line-height: 1.8125;
+margin-top: 0;
+}
+
+.programBoxes__text ul li:before {
+    content: "\2713"!important;
+    color: #00b6dc;
+    text-transform: none;
+    font-family: icomoon!important;
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
 }
